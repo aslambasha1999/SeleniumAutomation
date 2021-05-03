@@ -1,0 +1,285 @@
+<html>
+<head>
+<title>TestNG:  Functional Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 03 20:25:28 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>688 seconds (688217 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab()'><b>SearchforTrainsTab</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Delhi cantt, Howrah</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327764981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace327764981'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>119</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab()'><b>SearchforTrainsTab</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Hyderabad, Bangalore</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1159318147", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1159318147'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>96</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg()'><b>SearchforTrainsTabNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: XYZAB, Howrah</td>
+<td></td>
+<td>65</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg()'><b>SearchforTrainsTabNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Hyderabad, ABCDEF</td>
+<td></td>
+<td>93</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTable()'><b>TrainStatusTable</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: 56717<br/>
+<a href="#Output-1160630151" onClick='toggleBox("Output-1160630151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1160630151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1160630151">
+Station Arrival Train Status Halt Time Platform Locomotive Reverse<br/>
+KANYAKUMARI (CAPE) 18:15 Ontime Start 1 No<br/>
+NAGERCOIL JN (NCJ) 18:30 Ontime 5 mins 3 No<br/>
+TOVALAI (THX) 18:45 Ontime 1 min 1 No<br/>
+ARALVAYMOZHI (AAY) 18:53 Ontime 1 min 1 No<br/>
+NORTH PANAKUDI (NPK) 19:05 Ontime 1 min 1 No<br/>
+VALLIYUR (VLY) 19:15 Ontime 1 min 1 No<br/>
+NANGUNERI (NNN) 19:30 Ontime 1 min 1 No<br/>
+MELAPPALAIYAM (MP) 20:09 Ontime 1 min 3 No<br/>
+TIRUNELVELI (TEN) 20:40 Ontime End 4 No<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTable()'><b>TrainStatusTable</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: 96638<br/>
+<a href="#Output-943738695" onClick='toggleBox("Output-943738695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-943738695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-943738695">
+Station Arrival Train Status Halt Time Platform Locomotive Reverse<br/>
+TITVALA (TLA) 15:35 Ontime Start - No<br/>
+AMBIVLI (ABY) 15:42 Ontime 1 min - No<br/>
+SHAHAD (SHAD) 15:45 Ontime 1 min - No<br/>
+KALYAN JN (KYN) 15:50 Ontime 1 min - No<br/>
+THAKRULI (THK) 15:56 Ontime 1 min - No<br/>
+DOMBIVILI (DI) 16:00 Ontime 1 min - No<br/>
+KOPAR ROAD (KOPR) 16:03 Ontime 1 min - No<br/>
+DIVA (DIVA) 16:08 Ontime 1 min - No<br/>
+MUMBRA (MBQ) 16:12 Ontime 1 min - No<br/>
+KALVA (KLVA) 16:18 Ontime 1 min - No<br/>
+THANE (TNA) 16:22 Ontime 1 min - No<br/>
+MULUND (MLND) 16:27 Ontime 1 min - No<br/>
+NAHUR (NHU) 16:30 Ontime 1 min - No<br/>
+BHANDUP (BND) 16:33 Ontime 1 min - No<br/>
+KANJUR MARG (KJMG) 16:36 Ontime 1 min - No<br/>
+VIKHROLI (VK) 16:39 Ontime 1 min - No<br/>
+GHATKOPAR (GC) 16:43 Ontime 1 min - No<br/>
+VIDYAVIHAR (VVH) 16:46 Ontime 1 min - No<br/>
+KURLA JN (CLA) 16:49 Ontime 1 min - No<br/>
+MUMBAI SION (SIN) 16:53 Ontime 1 min - No<br/>
+MUMBAI MATUNGA (MTN) 16:56 Ontime 1 min - No<br/>
+MUMBAI DADAR CENTRAL (DR) 17:00 Ontime 1 min - No<br/>
+MUMBAI PAREL (PR) 17:03 Ontime 1 min - No<br/>
+MUMBAI CURREY ROAD (CRD) 17:06 Ontime 1 min - No<br/>
+MUMBAI CHINCHPOKLI (CHG) 17:08 Ontime 1 min - No<br/>
+BYCULLA (BY) 17:10 Ontime 1 min - No<br/>
+MUMBAI SANDHURST ROAD (SNRD) 17:13 Ontime 1 min - No<br/>
+BOMBAY MASJID (MSD) 17:16 Ontime 1 min - No<br/>
+MUMBAI CST (CSTM) 17:20 Ontime End - No<br/>
+</div>
+</td>
+<td></td>
+<td>55</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTableNeg()'><b>TrainStatusTableNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: ABCDE<br/>
+<a href="#Output-695772977" onClick='toggleBox("Output-695772977", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-695772977" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-695772977">
+Train Departure Arrival Duration<br/>
+02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M<br/>
+02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M<br/>
+02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M<br/>
+02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M<br/>
+02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M<br/>
+02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M<br/>
+02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M<br/>
+02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M<br/>
+02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M<br/>
+02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTableNeg()'><b>TrainStatusTableNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: 12000<br/>
+<a href="#Output-99504784" onClick='toggleBox("Output-99504784", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99504784" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99504784">
+Train Departure Arrival Duration<br/>
+02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M<br/>
+02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M<br/>
+02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M<br/>
+02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M<br/>
+02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M<br/>
+02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M<br/>
+02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M<br/>
+02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M<br/>
+02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M<br/>
+02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTableNeg()'><b>TrainStatusTableNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: " "<br/>
+<a href="#Output-866309551" onClick='toggleBox("Output-866309551", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-866309551" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-866309551">
+Train Departure Arrival Duration<br/>
+02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M<br/>
+02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M<br/>
+02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M<br/>
+02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M<br/>
+02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M<br/>
+02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M<br/>
+02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M<br/>
+02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M<br/>
+02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M<br/>
+02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+</table><p>
+</body>
+</html>

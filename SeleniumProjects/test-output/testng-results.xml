@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="9" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Station Arrival Train Status Halt Time Platform Locomotive Reverse]]>
+    </line>
+    <line>
+      <![CDATA[KANYAKUMARI (CAPE) 18:15 Ontime Start 1 No]]>
+    </line>
+    <line>
+      <![CDATA[NAGERCOIL JN (NCJ) 18:30 Ontime 5 mins 3 No]]>
+    </line>
+    <line>
+      <![CDATA[TOVALAI (THX) 18:45 Ontime 1 min 1 No]]>
+    </line>
+    <line>
+      <![CDATA[ARALVAYMOZHI (AAY) 18:53 Ontime 1 min 1 No]]>
+    </line>
+    <line>
+      <![CDATA[NORTH PANAKUDI (NPK) 19:05 Ontime 1 min 1 No]]>
+    </line>
+    <line>
+      <![CDATA[VALLIYUR (VLY) 19:15 Ontime 1 min 1 No]]>
+    </line>
+    <line>
+      <![CDATA[NANGUNERI (NNN) 19:30 Ontime 1 min 1 No]]>
+    </line>
+    <line>
+      <![CDATA[MELAPPALAIYAM (MP) 20:09 Ontime 1 min 3 No]]>
+    </line>
+    <line>
+      <![CDATA[TIRUNELVELI (TEN) 20:40 Ontime End 4 No]]>
+    </line>
+    <line>
+      <![CDATA[Station Arrival Train Status Halt Time Platform Locomotive Reverse]]>
+    </line>
+    <line>
+      <![CDATA[TITVALA (TLA) 15:35 Ontime Start - No]]>
+    </line>
+    <line>
+      <![CDATA[AMBIVLI (ABY) 15:42 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[SHAHAD (SHAD) 15:45 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[KALYAN JN (KYN) 15:50 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[THAKRULI (THK) 15:56 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[DOMBIVILI (DI) 16:00 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[KOPAR ROAD (KOPR) 16:03 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[DIVA (DIVA) 16:08 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBRA (MBQ) 16:12 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[KALVA (KLVA) 16:18 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[THANE (TNA) 16:22 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MULUND (MLND) 16:27 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[NAHUR (NHU) 16:30 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[BHANDUP (BND) 16:33 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[KANJUR MARG (KJMG) 16:36 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[VIKHROLI (VK) 16:39 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[GHATKOPAR (GC) 16:43 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[VIDYAVIHAR (VVH) 16:46 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[KURLA JN (CLA) 16:49 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI SION (SIN) 16:53 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI MATUNGA (MTN) 16:56 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI DADAR CENTRAL (DR) 17:00 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI PAREL (PR) 17:03 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI CURREY ROAD (CRD) 17:06 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI CHINCHPOKLI (CHG) 17:08 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[BYCULLA (BY) 17:10 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI SANDHURST ROAD (SNRD) 17:13 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[BOMBAY MASJID (MSD) 17:16 Ontime 1 min - No]]>
+    </line>
+    <line>
+      <![CDATA[MUMBAI CST (CSTM) 17:20 Ontime End - No]]>
+    </line>
+    <line>
+      <![CDATA[Train Departure Arrival Duration]]>
+    </line>
+    <line>
+      <![CDATA[02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M]]>
+    </line>
+    <line>
+      <![CDATA[02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M]]>
+    </line>
+    <line>
+      <![CDATA[02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M]]>
+    </line>
+    <line>
+      <![CDATA[02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M]]>
+    </line>
+    <line>
+      <![CDATA[02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M]]>
+    </line>
+    <line>
+      <![CDATA[02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M]]>
+    </line>
+    <line>
+      <![CDATA[02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M]]>
+    </line>
+    <line>
+      <![CDATA[Train Departure Arrival Duration]]>
+    </line>
+    <line>
+      <![CDATA[02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M]]>
+    </line>
+    <line>
+      <![CDATA[02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M]]>
+    </line>
+    <line>
+      <![CDATA[02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M]]>
+    </line>
+    <line>
+      <![CDATA[02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M]]>
+    </line>
+    <line>
+      <![CDATA[02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M]]>
+    </line>
+    <line>
+      <![CDATA[02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M]]>
+    </line>
+    <line>
+      <![CDATA[02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M]]>
+    </line>
+    <line>
+      <![CDATA[Train Departure Arrival Duration]]>
+    </line>
+    <line>
+      <![CDATA[02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M]]>
+    </line>
+    <line>
+      <![CDATA[02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M]]>
+    </line>
+    <line>
+      <![CDATA[02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M]]>
+    </line>
+    <line>
+      <![CDATA[02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M]]>
+    </line>
+    <line>
+      <![CDATA[02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M]]>
+    </line>
+    <line>
+      <![CDATA[02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M]]>
+    </line>
+    <line>
+      <![CDATA[02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M]]>
+    </line>
+    <line>
+      <![CDATA[02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Testing" duration-ms="688217" started-at="2021-05-03T14:55:28Z" finished-at="2021-05-03T15:06:57Z">
+    <groups>
+    </groups>
+    <test name="Functional Testing" duration-ms="688217" started-at="2021-05-03T14:55:28Z" finished-at="2021-05-03T15:06:57Z">
+      <class name="com.qa.Projecttestscripts.TC_TrainStatusTable">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="setup" is-config="true" duration-ms="36616" started-at="2021-05-03T14:55:29Z" finished-at="2021-05-03T14:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.railyatri.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TrainStatusTable(java.lang.String)[pri:1, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="TrainStatusTable" duration-ms="58154" started-at="2021-05-03T14:56:07Z" data-provider="getData" finished-at="2021-05-03T14:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56717]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Station Arrival Train Status Halt Time Platform Locomotive Reverse]]>
+            </line>
+            <line>
+              <![CDATA[KANYAKUMARI (CAPE) 18:15 Ontime Start 1 No]]>
+            </line>
+            <line>
+              <![CDATA[NAGERCOIL JN (NCJ) 18:30 Ontime 5 mins 3 No]]>
+            </line>
+            <line>
+              <![CDATA[TOVALAI (THX) 18:45 Ontime 1 min 1 No]]>
+            </line>
+            <line>
+              <![CDATA[ARALVAYMOZHI (AAY) 18:53 Ontime 1 min 1 No]]>
+            </line>
+            <line>
+              <![CDATA[NORTH PANAKUDI (NPK) 19:05 Ontime 1 min 1 No]]>
+            </line>
+            <line>
+              <![CDATA[VALLIYUR (VLY) 19:15 Ontime 1 min 1 No]]>
+            </line>
+            <line>
+              <![CDATA[NANGUNERI (NNN) 19:30 Ontime 1 min 1 No]]>
+            </line>
+            <line>
+              <![CDATA[MELAPPALAIYAM (MP) 20:09 Ontime 1 min 3 No]]>
+            </line>
+            <line>
+              <![CDATA[TIRUNELVELI (TEN) 20:40 Ontime End 4 No]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TrainStatusTable -->
+        <test-method status="PASS" signature="TrainStatusTable(java.lang.String)[pri:1, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="TrainStatusTable" duration-ms="55523" started-at="2021-05-03T14:57:06Z" data-provider="getData" finished-at="2021-05-03T14:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96638]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Station Arrival Train Status Halt Time Platform Locomotive Reverse]]>
+            </line>
+            <line>
+              <![CDATA[TITVALA (TLA) 15:35 Ontime Start - No]]>
+            </line>
+            <line>
+              <![CDATA[AMBIVLI (ABY) 15:42 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[SHAHAD (SHAD) 15:45 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[KALYAN JN (KYN) 15:50 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[THAKRULI (THK) 15:56 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[DOMBIVILI (DI) 16:00 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[KOPAR ROAD (KOPR) 16:03 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[DIVA (DIVA) 16:08 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBRA (MBQ) 16:12 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[KALVA (KLVA) 16:18 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[THANE (TNA) 16:22 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MULUND (MLND) 16:27 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[NAHUR (NHU) 16:30 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[BHANDUP (BND) 16:33 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[KANJUR MARG (KJMG) 16:36 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[VIKHROLI (VK) 16:39 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[GHATKOPAR (GC) 16:43 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[VIDYAVIHAR (VVH) 16:46 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[KURLA JN (CLA) 16:49 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI SION (SIN) 16:53 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI MATUNGA (MTN) 16:56 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI DADAR CENTRAL (DR) 17:00 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI PAREL (PR) 17:03 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI CURREY ROAD (CRD) 17:06 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI CHINCHPOKLI (CHG) 17:08 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[BYCULLA (BY) 17:10 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI SANDHURST ROAD (SNRD) 17:13 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[BOMBAY MASJID (MSD) 17:16 Ontime 1 min - No]]>
+            </line>
+            <line>
+              <![CDATA[MUMBAI CST (CSTM) 17:20 Ontime End - No]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TrainStatusTable -->
+        <test-method status="PASS" signature="TrainStatusTableNeg(java.lang.String)[pri:2, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="TrainStatusTableNeg" duration-ms="59635" started-at="2021-05-03T14:58:02Z" data-provider="getData1" finished-at="2021-05-03T14:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Train Departure Arrival Duration]]>
+            </line>
+            <line>
+              <![CDATA[02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M]]>
+            </line>
+            <line>
+              <![CDATA[02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M]]>
+            </line>
+            <line>
+              <![CDATA[02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M]]>
+            </line>
+            <line>
+              <![CDATA[02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M]]>
+            </line>
+            <line>
+              <![CDATA[02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M]]>
+            </line>
+            <line>
+              <![CDATA[02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M]]>
+            </line>
+            <line>
+              <![CDATA[02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TrainStatusTableNeg -->
+        <test-method status="PASS" signature="TrainStatusTableNeg(java.lang.String)[pri:2, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="TrainStatusTableNeg" duration-ms="37711" started-at="2021-05-03T14:59:01Z" data-provider="getData1" finished-at="2021-05-03T14:59:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Train Departure Arrival Duration]]>
+            </line>
+            <line>
+              <![CDATA[02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M]]>
+            </line>
+            <line>
+              <![CDATA[02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M]]>
+            </line>
+            <line>
+              <![CDATA[02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M]]>
+            </line>
+            <line>
+              <![CDATA[02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M]]>
+            </line>
+            <line>
+              <![CDATA[02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M]]>
+            </line>
+            <line>
+              <![CDATA[02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M]]>
+            </line>
+            <line>
+              <![CDATA[02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TrainStatusTableNeg -->
+        <test-method status="PASS" signature="TrainStatusTableNeg(java.lang.String)[pri:2, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="TrainStatusTableNeg" duration-ms="58689" started-at="2021-05-03T14:59:39Z" data-provider="getData1" finished-at="2021-05-03T15:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[" "]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Train Departure Arrival Duration]]>
+            </line>
+            <line>
+              <![CDATA[02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M]]>
+            </line>
+            <line>
+              <![CDATA[02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M]]>
+            </line>
+            <line>
+              <![CDATA[02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M]]>
+            </line>
+            <line>
+              <![CDATA[02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M]]>
+            </line>
+            <line>
+              <![CDATA[02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M]]>
+            </line>
+            <line>
+              <![CDATA[02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M]]>
+            </line>
+            <line>
+              <![CDATA[02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M]]>
+            </line>
+            <line>
+              <![CDATA[02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TrainStatusTableNeg -->
+        <test-method status="FAIL" signature="SearchforTrainsTab(java.lang.String, java.lang.String)[pri:3, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="SearchforTrainsTab" duration-ms="119915" started-at="2021-05-03T15:00:39Z" data-provider="getData2" finished-at="2021-05-03T15:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi cantt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Howrah]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchforTrainsTab -->
+        <test-method status="FAIL" signature="SearchforTrainsTab(java.lang.String, java.lang.String)[pri:3, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="SearchforTrainsTab" duration-ms="96285" started-at="2021-05-03T15:02:38Z" data-provider="getData2" finished-at="2021-05-03T15:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchforTrainsTab -->
+        <test-method status="PASS" signature="SearchforTrainsTabNeg(java.lang.String, java.lang.String)[pri:4, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="SearchforTrainsTabNeg" duration-ms="65631" started-at="2021-05-03T15:04:15Z" data-provider="getData3" finished-at="2021-05-03T15:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XYZAB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Howrah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchforTrainsTabNeg -->
+        <test-method status="PASS" signature="SearchforTrainsTabNeg(java.lang.String, java.lang.String)[pri:4, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="SearchforTrainsTabNeg" duration-ms="93414" started-at="2021-05-03T15:05:21Z" data-provider="getData3" finished-at="2021-05-03T15:06:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABCDEF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchforTrainsTabNeg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8]" name="tearDown" is-config="true" duration-ms="2243" started-at="2021-05-03T15:06:54Z" finished-at="2021-05-03T15:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Projecttestscripts.TC_TrainStatusTable -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- Automation Testing -->
+</testng-results>

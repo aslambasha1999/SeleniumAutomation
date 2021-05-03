@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing" thread-count="5" parallel="tests">
+	<listeners>
+		<listener class-name="com.qa.utility.Reporting"></listener>
+	</listeners>	
+	<parameter name="Browser" value="chrome"></parameter>
+	<parameter name="Url" value="https://www.railyatri.in/"></parameter>
+  <test thread-count="5" name="Functional Testing" parallel="classes">
+    <classes>
+      <class name="com.qa.Projecttestscripts.TC_TrainStatusTable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

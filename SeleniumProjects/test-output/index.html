@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Testing">
+              <span class="suite-name border-failed">Automation Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Testing">
+                    <span>C:\Users\DELL\eclipse-workspace\SeleniumProjects\src\test\java\com\qa\utility\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Testing">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Testing">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Testing">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Testing">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Testing">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Testing">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Testing" class="hide-methods failed suite-Automation_Testing"> (hide)</a> <!-- hide-methods failed suite-Automation_Testing -->
+                      <a href="#" panel-name="suite-Automation_Testing" class="show-methods failed suite-Automation_Testing"> (show)</a> <!-- show-methods failed suite-Automation_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Testing">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="SearchforTrainsTab(Hyderabad, Bangalore)">SearchforTrainsTab(Hyderabad, Bangalore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="SearchforTrainsTab(Delhi cantt, Howrah)">SearchforTrainsTab(Delhi cantt, Howrah)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Testing" class="hide-methods passed suite-Automation_Testing"> (hide)</a> <!-- hide-methods passed suite-Automation_Testing -->
+                      <a href="#" panel-name="suite-Automation_Testing" class="show-methods passed suite-Automation_Testing"> (show)</a> <!-- show-methods passed suite-Automation_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="SearchforTrainsTabNeg(Hyderabad, ABCDEF)">SearchforTrainsTabNeg(Hyderabad, ABCDEF)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="SearchforTrainsTabNeg(XYZAB, Howrah)">SearchforTrainsTabNeg(XYZAB, Howrah)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="TrainStatusTable(96638)">TrainStatusTable(96638)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="TrainStatusTable(56717)">TrainStatusTable(56717)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="TrainStatusTableNeg(ABCDE)">TrainStatusTableNeg(ABCDE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="TrainStatusTableNeg(&quot; &quot;)">TrainStatusTableNeg(" ")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Testing" title="com.qa.Projecttestscripts.TC_TrainStatusTable" hash-for-method="TrainStatusTableNeg(12000)">TrainStatusTableNeg(12000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Testing" class="panel Automation_Testing">
+          <div class="suite-Automation_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.Projecttestscripts.TC_TrainStatusTable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchforTrainsTab(Hyderabad, Bangalore)">
+                  </a> <!-- SearchforTrainsTab(Hyderabad, Bangalore) -->
+                  <span class="method-name">SearchforTrainsTab</span>
+                  <span class="parameters">(Hyderabad, Bangalore)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchforTrainsTab(Delhi cantt, Howrah)">
+                  </a> <!-- SearchforTrainsTab(Delhi cantt, Howrah) -->
+                  <span class="method-name">SearchforTrainsTab</span>
+                  <span class="parameters">(Delhi cantt, Howrah)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Testing-class-failed -->
+          <div class="suite-Automation_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.Projecttestscripts.TC_TrainStatusTable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchforTrainsTabNeg(Hyderabad, ABCDEF)">
+                  </a> <!-- SearchforTrainsTabNeg(Hyderabad, ABCDEF) -->
+                  <span class="method-name">SearchforTrainsTabNeg</span>
+                  <span class="parameters">(Hyderabad, ABCDEF)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchforTrainsTabNeg(XYZAB, Howrah)">
+                  </a> <!-- SearchforTrainsTabNeg(XYZAB, Howrah) -->
+                  <span class="method-name">SearchforTrainsTabNeg</span>
+                  <span class="parameters">(XYZAB, Howrah)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrainStatusTable(96638)">
+                  </a> <!-- TrainStatusTable(96638) -->
+                  <span class="method-name">TrainStatusTable</span>
+                  <span class="parameters">(96638)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrainStatusTable(56717)">
+                  </a> <!-- TrainStatusTable(56717) -->
+                  <span class="method-name">TrainStatusTable</span>
+                  <span class="parameters">(56717)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrainStatusTableNeg(ABCDE)">
+                  </a> <!-- TrainStatusTableNeg(ABCDE) -->
+                  <span class="method-name">TrainStatusTableNeg</span>
+                  <span class="parameters">(ABCDE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrainStatusTableNeg(&quot; &quot;)">
+                  </a> <!-- TrainStatusTableNeg(" ") -->
+                  <span class="method-name">TrainStatusTableNeg</span>
+                  <span class="parameters">(" ")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrainStatusTableNeg(12000)">
+                  </a> <!-- TrainStatusTableNeg(12000) -->
+                  <span class="method-name">TrainStatusTableNeg</span>
+                  <span class="parameters">(12000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Testing-class-passed -->
+        </div> <!-- panel Automation_Testing -->
+        <div panel-name="test-xml-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\eclipse-workspace\SeleniumProjects\src\test\java\com\qa\utility\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Automation Testing&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;Url&quot; value=&quot;https://www.railyatri.in/&quot;/&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.utility.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Functional Testing&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.Projecttestscripts.TC_TrainStatusTable&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional Testing --&gt;
+&lt;/suite&gt; &lt;!-- Automation Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Functional Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Testing');
+function tableData_Automation_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SearchforTrainsTab')
+data.setCell(0, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(0, 3, 119915);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchforTrainsTab')
+data.setCell(1, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(1, 3, 96285);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SearchforTrainsTabNeg')
+data.setCell(2, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(2, 3, 93414);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SearchforTrainsTabNeg')
+data.setCell(3, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(3, 3, 65631);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TrainStatusTableNeg')
+data.setCell(4, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(4, 3, 59635);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TrainStatusTableNeg')
+data.setCell(5, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(5, 3, 58689);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TrainStatusTable')
+data.setCell(6, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(6, 3, 58154);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TrainStatusTable')
+data.setCell(7, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(7, 3, 55523);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TrainStatusTableNeg')
+data.setCell(8, 2, 'com.qa.Projecttestscripts.TC_TrainStatusTable')
+data.setCell(8, 3, 37711);
+window.suiteTableData['Automation_Testing']= { tableData: data, tableDiv: 'times-div-Automation_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Automation_Testing">
+              </div> <!-- times-div-Automation_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TrainStatusTable(96638)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Station Arrival Train Status Halt Time Platform Locomotive Reverse</span>
+                <span class="reporter-method-output">TITVALA (TLA) 15:35 Ontime Start - No</span>
+                <span class="reporter-method-output">AMBIVLI (ABY) 15:42 Ontime 1 min - No</span>
+                <span class="reporter-method-output">SHAHAD (SHAD) 15:45 Ontime 1 min - No</span>
+                <span class="reporter-method-output">KALYAN JN (KYN) 15:50 Ontime 1 min - No</span>
+                <span class="reporter-method-output">THAKRULI (THK) 15:56 Ontime 1 min - No</span>
+                <span class="reporter-method-output">DOMBIVILI (DI) 16:00 Ontime 1 min - No</span>
+                <span class="reporter-method-output">KOPAR ROAD (KOPR) 16:03 Ontime 1 min - No</span>
+                <span class="reporter-method-output">DIVA (DIVA) 16:08 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBRA (MBQ) 16:12 Ontime 1 min - No</span>
+                <span class="reporter-method-output">KALVA (KLVA) 16:18 Ontime 1 min - No</span>
+                <span class="reporter-method-output">THANE (TNA) 16:22 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MULUND (MLND) 16:27 Ontime 1 min - No</span>
+                <span class="reporter-method-output">NAHUR (NHU) 16:30 Ontime 1 min - No</span>
+                <span class="reporter-method-output">BHANDUP (BND) 16:33 Ontime 1 min - No</span>
+                <span class="reporter-method-output">KANJUR MARG (KJMG) 16:36 Ontime 1 min - No</span>
+                <span class="reporter-method-output">VIKHROLI (VK) 16:39 Ontime 1 min - No</span>
+                <span class="reporter-method-output">GHATKOPAR (GC) 16:43 Ontime 1 min - No</span>
+                <span class="reporter-method-output">VIDYAVIHAR (VVH) 16:46 Ontime 1 min - No</span>
+                <span class="reporter-method-output">KURLA JN (CLA) 16:49 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI SION (SIN) 16:53 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI MATUNGA (MTN) 16:56 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI DADAR CENTRAL (DR) 17:00 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI PAREL (PR) 17:03 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI CURREY ROAD (CRD) 17:06 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI CHINCHPOKLI (CHG) 17:08 Ontime 1 min - No</span>
+                <span class="reporter-method-output">BYCULLA (BY) 17:10 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI SANDHURST ROAD (SNRD) 17:13 Ontime 1 min - No</span>
+                <span class="reporter-method-output">BOMBAY MASJID (MSD) 17:16 Ontime 1 min - No</span>
+                <span class="reporter-method-output">MUMBAI CST (CSTM) 17:20 Ontime End - No</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TrainStatusTableNeg(ABCDE)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Train Departure Arrival Duration</span>
+                <span class="reporter-method-output">02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M</span>
+                <span class="reporter-method-output">02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M</span>
+                <span class="reporter-method-output">02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M</span>
+                <span class="reporter-method-output">02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M</span>
+                <span class="reporter-method-output">02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M</span>
+                <span class="reporter-method-output">02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M</span>
+                <span class="reporter-method-output">02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M</span>
+                <span class="reporter-method-output">02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M</span>
+                <span class="reporter-method-output">02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M</span>
+                <span class="reporter-method-output">02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TrainStatusTable(56717)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Station Arrival Train Status Halt Time Platform Locomotive Reverse</span>
+                <span class="reporter-method-output">KANYAKUMARI (CAPE) 18:15 Ontime Start 1 No</span>
+                <span class="reporter-method-output">NAGERCOIL JN (NCJ) 18:30 Ontime 5 mins 3 No</span>
+                <span class="reporter-method-output">TOVALAI (THX) 18:45 Ontime 1 min 1 No</span>
+                <span class="reporter-method-output">ARALVAYMOZHI (AAY) 18:53 Ontime 1 min 1 No</span>
+                <span class="reporter-method-output">NORTH PANAKUDI (NPK) 19:05 Ontime 1 min 1 No</span>
+                <span class="reporter-method-output">VALLIYUR (VLY) 19:15 Ontime 1 min 1 No</span>
+                <span class="reporter-method-output">NANGUNERI (NNN) 19:30 Ontime 1 min 1 No</span>
+                <span class="reporter-method-output">MELAPPALAIYAM (MP) 20:09 Ontime 1 min 3 No</span>
+                <span class="reporter-method-output">TIRUNELVELI (TEN) 20:40 Ontime End 4 No</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TrainStatusTableNeg(" ")</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Train Departure Arrival Duration</span>
+                <span class="reporter-method-output">02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M</span>
+                <span class="reporter-method-output">02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M</span>
+                <span class="reporter-method-output">02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M</span>
+                <span class="reporter-method-output">02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M</span>
+                <span class="reporter-method-output">02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M</span>
+                <span class="reporter-method-output">02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M</span>
+                <span class="reporter-method-output">02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M</span>
+                <span class="reporter-method-output">02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M</span>
+                <span class="reporter-method-output">02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M</span>
+                <span class="reporter-method-output">02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TrainStatusTableNeg(12000)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Train Departure Arrival Duration</span>
+                <span class="reporter-method-output">02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M</span>
+                <span class="reporter-method-output">02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M</span>
+                <span class="reporter-method-output">02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M</span>
+                <span class="reporter-method-output">02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M</span>
+                <span class="reporter-method-output">02823 - BHUBANESWAR - NEW DELHI Covid AC Special (Via Tatanagar) 09:30 09:55 24H 25M</span>
+                <span class="reporter-method-output">02824 - NEW DELHI - BHUBANESWAR Covid AC Special (Via Tatanagar) 17:00 17:30 24H 30M</span>
+                <span class="reporter-method-output">02951 - MUMBAI CENTRAL - NEW DELHI Rajdhani Covid Special 17:00 08:50 15H 50M</span>
+                <span class="reporter-method-output">02952 - NEW DELHI - MUMBAI CENTRAL Rajdhani Covid Special 16:55 08:35 15H 40M</span>
+                <span class="reporter-method-output">02957 - AHMEDABAD - NEW DELHI (Covid SPL AC) 17:45 07:30 13H 45M</span>
+                <span class="reporter-method-output">02958 - NEW DELHI - AHMEDABAD Rajdhani (Covid SPL AC) 19:55 09:30 13H 35M</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.Projecttestscripts.TC_TrainStatusTable</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome, https://www.railyatri.in/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TrainStatusTable(56717)</span>
+                <span class="method-start">38569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TrainStatusTable(96638)</span>
+                <span class="method-start">96773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TrainStatusTableNeg(ABCDE)</span>
+                <span class="method-start">152891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TrainStatusTableNeg(12000)</span>
+                <span class="method-start">212531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TrainStatusTableNeg(" ")</span>
+                <span class="method-start">250247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchforTrainsTab(Delhi cantt, Howrah)</span>
+                <span class="method-start">309728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchforTrainsTab(Hyderabad, Bangalore)</span>
+                <span class="method-start">429653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchforTrainsTabNeg(XYZAB, Howrah)</span>
+                <span class="method-start">526493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchforTrainsTabNeg(Hyderabad, ABCDEF)</span>
+                <span class="method-start">592134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">685553 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
