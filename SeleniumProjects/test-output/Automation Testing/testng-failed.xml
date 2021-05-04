@@ -10,9 +10,10 @@
     <classes>
       <class name="com.qa.Projecttestscripts.TC_TrainStatusTable">
         <methods>
-          <include name="SearchforTrainsTab" invocation-numbers="0 1"/>
+          <include name="SearchforTrainsTab" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="SearchforTrainsTabNeg" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.qa.Projecttestscripts.TC_TrainStatusTable -->
     </classes>

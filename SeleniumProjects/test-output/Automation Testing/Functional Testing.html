@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 03 20:25:28 IST 2021</td>
+<td>Started on:</td><td>Tue May 04 10:26:00 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>688 seconds (688217 ms)</td>
+<tr><td>Total time:</td><td>815 seconds (815244 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,8 +81,8 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327764981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace327764981'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace785266847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace785266847'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertTrue(Assert.java:44)
@@ -102,22 +102,64 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>119</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>109</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 <tr>
-<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab()'><b>SearchforTrainsTab</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Hyderabad, Bangalore</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg()'><b>SearchforTrainsTabNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Hyderabad, ABCDEF</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Search Trains&apos;]&quot;}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 653dea07c7e2fc45da8db02ca5b993b1
+*** Element info: {Using=xpath, value=//input[@value=&apos;Search Trains&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg(TC_TrainStatusTable.java:111)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1159318147", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1159318147'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab(TC_TrainStatusTable.java:81)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace517402670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace517402670'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;Search Trains&apos;]&quot;}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 653dea07c7e2fc45da8db02ca5b993b1
+*** Element info: {Using=xpath, value=//input[@value=&apos;Search Trains&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg(TC_TrainStatusTable.java:111)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -132,8 +174,8 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>96</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>97</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -143,21 +185,121 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTab()'><b>SearchforTrainsTab</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Hyderabad, Bangalore<br/>
+<a href="#Output-478770785" onClick='toggleBox("Output-478770785", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-478770785" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-478770785">
+06250 HAZRAT NIZAMUDDIN - YESVANTPUR Karnataka Sampark Kranti SF Festival Special (Via Ballari)
+08:40 KCG
+KACHEGUDA
+21 H 0 M
+05:40 YPR
+YESVANTPUR JN<br/>
+05015 GORAKHPUR - YESVANTPUR SF Special
+13:45 SC
+SECUNDERABAD JN
+13 H 0 M
+02:45 YPR
+YESVANTPUR JN<br/>
+02591 GORAKHPUR - YESVANTPUR Covid SF Special
+15:20 SC
+SECUNDERABAD JN
+13 H 25 M
+04:45 YPR
+YESVANTPUR JN<br/>
+02692 HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special
+17:25 SC
+SECUNDERABAD JN
+11 H 55 M
+05:20 SBC
+BANGALORE CITY JN<br/>
+02785 KACHEGUDA - MYSORE Festival Special
+19:05 KCG
+KACHEGUDA
+10 H 53 M
+05:58 BNC
+BANGALORE CANT<br/>
+06594 DELHI SARAI ROHILLA - YESVANTPUR AC Duronto Special
+21:10 SC
+SECUNDERABAD JN
+11 H 0 M
+08:10 YPR
+YESVANTPUR JN<br/>
+07603 YNK FESTVL SPL
+21:05 KCG
+12 H 30 M
+09:35 YNK<br/>
+02976 JAIPUR - MYSORE Covid Special
+00:20 KCG
+KACHEGUDA
+11 H 58 M
+12:18 BNC
+BANGALORE CANT<br/>
+02140 JABALPUR - YASVANTPUR Covid SF Special
+01:25 KCG
+KACHEGUDA
+12 H 5 M
+13:30 YPR
+YESVANTPUR JN<br/>
+02252 KORBA - YESVANTPUR Festival SF Special
+01:25 KCG
+KACHEGUDA
+12 H 5 M
+13:30 YPR
+YESVANTPUR JN<br/>
+02684 LUCKNOW - YESVANTPUR Festival Special (Via Kacheguda)
+01:25 KCG
+KACHEGUDA
+12 H 5 M
+13:30 YPR
+YESVANTPUR JN<br/>
+06078 DELHI H NIZAMUDDIN - COIMBATORE Covid Special
+08:50 KCG
+KACHEGUDA
+14 H 8 M
+22:58 KJM
+KRISHNARAJAPURAM<br/>
+06578 GUWAHATI - YESVANTPUR Summer Special
+15:00 SC
+SECUNDERABAD JN
+10 H 30 M
+01:30 YPR
+YESVANTPUR JN<br/>
+05023 GORAKHPUR - YESVANTPUR Festival Special (Via Faizabad)
+20:25 KCG
+KACHEGUDA
+15 H 5 M
+11:30 YPR
+YESVANTPUR JN<br/>
+02735 SECUNDERABAD - YESVANTPUR Garib Rath Special
+20:30 SC
+SECUNDERABAD JN
+11 H 40 M
+08:10 YPR
+YESVANTPUR JN<br/>
+09301 DR AMBEDKAR NAGAR - YESVANTPUR Special
+22:20 KCG
+KACHEGUDA
+12 H 40 M
+11:00 YPR
+YESVANTPUR JN<br/>
+</div>
+</td>
+<td></td>
+<td>102</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
+<tr>
 <td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg()'><b>SearchforTrainsTabNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: XYZAB, Howrah</td>
 <td></td>
-<td>65</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
-<tr>
-<td title='com.qa.Projecttestscripts.TC_TrainStatusTable.SearchforTrainsTabNeg()'><b>SearchforTrainsTabNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: Hyderabad, ABCDEF</td>
-<td></td>
-<td>93</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>55</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 <tr>
 <td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTable()'><b>TrainStatusTable</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: 56717<br/>
-<a href="#Output-1160630151" onClick='toggleBox("Output-1160630151", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1753101243" onClick='toggleBox("Output-1753101243", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1160630151" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1160630151">
+<a href="#Output-1753101243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1753101243">
 Station Arrival Train Status Halt Time Platform Locomotive Reverse<br/>
 KANYAKUMARI (CAPE) 18:15 Ontime Start 1 No<br/>
 NAGERCOIL JN (NCJ) 18:30 Ontime 5 mins 3 No<br/>
@@ -171,14 +313,14 @@ TIRUNELVELI (TEN) 20:40 Ontime End 4 No<br/>
 </div>
 </td>
 <td></td>
-<td>58</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>114</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 <tr>
 <td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTable()'><b>TrainStatusTable</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: 96638<br/>
-<a href="#Output-943738695" onClick='toggleBox("Output-943738695", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-354030956" onClick='toggleBox("Output-354030956", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-943738695" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-943738695">
+<a href="#Output-354030956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-354030956">
 Station Arrival Train Status Halt Time Platform Locomotive Reverse<br/>
 TITVALA (TLA) 15:35 Ontime Start - No<br/>
 AMBIVLI (ABY) 15:42 Ontime 1 min - No<br/>
@@ -212,16 +354,16 @@ MUMBAI CST (CSTM) 17:20 Ontime End - No<br/>
 </div>
 </td>
 <td></td>
-<td>55</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>77</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 <tr>
 <td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTableNeg()'><b>TrainStatusTableNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: ABCDE<br/>
-<a href="#Output-695772977" onClick='toggleBox("Output-695772977", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2080504562" onClick='toggleBox("Output-2080504562", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-695772977" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-695772977">
+<a href="#Output-2080504562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2080504562">
 Train Departure Arrival Duration<br/>
-02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M<br/>
+02453 - RANCHI - NEW DELHI Rajdhani (Covid SPL AC) 17:15 11:10 17H 55M<br/>
 02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M<br/>
 02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M<br/>
 02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M<br/>
@@ -234,16 +376,16 @@ Train Departure Arrival Duration<br/>
 </div>
 </td>
 <td></td>
-<td>59</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>23</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 <tr>
 <td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTableNeg()'><b>TrainStatusTableNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: 12000<br/>
-<a href="#Output-99504784" onClick='toggleBox("Output-99504784", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1430083233" onClick='toggleBox("Output-1430083233", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-99504784" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-99504784">
+<a href="#Output-1430083233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1430083233">
 Train Departure Arrival Duration<br/>
-02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M<br/>
+02453 - RANCHI - NEW DELHI Rajdhani (Covid SPL AC) 17:15 11:10 17H 55M<br/>
 02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M<br/>
 02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M<br/>
 02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M<br/>
@@ -257,15 +399,15 @@ Train Departure Arrival Duration<br/>
 </td>
 <td></td>
 <td>37</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 <tr>
 <td title='com.qa.Projecttestscripts.TC_TrainStatusTable.TrainStatusTableNeg()'><b>TrainStatusTableNeg</b><br>Test class: com.qa.Projecttestscripts.TC_TrainStatusTable<br>Parameters: " "<br/>
-<a href="#Output-866309551" onClick='toggleBox("Output-866309551", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1117056635" onClick='toggleBox("Output-1117056635", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-866309551" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-866309551">
+<a href="#Output-1117056635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1117056635">
 Train Departure Arrival Duration<br/>
-02454 - NEW DELHI - RANCHI Rajdhani (Covid SPL AC) 16:10 10:56 18H 46M<br/>
+02453 - RANCHI - NEW DELHI Rajdhani (Covid SPL AC) 17:15 11:10 17H 55M<br/>
 02501 - AGARTALA - ANAND VIHAR T Rajdhani Special 19:25 34:50 39H 25M<br/>
 02691 - KSR BENGALURU - HAZRAT NIZAMUDDIN Rajdhani Special 20:00 29:30 33H 30M<br/>
 02692 - HAZRAT NIZAMUDDIN - KSR BENGALURU Rajdhani Special 19:50 29:20 33H 30M<br/>
@@ -278,8 +420,8 @@ Train Departure Arrival Duration<br/>
 </div>
 </td>
 <td></td>
-<td>58</td>
-<td>com.qa.Projecttestscripts.TC_TrainStatusTable@239963d8</td></tr>
+<td>72</td>
+<td>com.qa.Projecttestscripts.TC_TrainStatusTable@14bf9759</td></tr>
 </table><p>
 </body>
 </html>
