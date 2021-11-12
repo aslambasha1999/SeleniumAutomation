@@ -12,7 +12,6 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.qa.Projecttestscripts.TestBase_TrainStatusTable;
 import com.qa.utility.ExcelUtility;
 
@@ -145,7 +144,7 @@ public class TC_TrainStatusTable extends TestBase_TrainStatusTable{
 	public String[][] getData() throws IOException
 	{
 	
-		String xlPath="C:\\Users\\DELL\\eclipse-workspace\\SeleniumProjects\\src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
+		String xlPath="src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
 		String xlSheet="Sheet1";
 		int rowCount=ExcelUtility.getRowCount(xlPath, xlSheet);
 		int cellCount=ExcelUtility.getCellCount(xlPath, xlSheet,rowCount);
@@ -170,7 +169,7 @@ public class TC_TrainStatusTable extends TestBase_TrainStatusTable{
 	public String[][] getData1() throws IOException
 	{
 	
-		String xlPath="C:\\Users\\DELL\\eclipse-workspace\\SeleniumProjects\\src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
+		String xlPath="src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
 		String xlSheet="Sheet2";
 		int rowCount=ExcelUtility.getRowCount(xlPath, xlSheet);
 		int cellCount=ExcelUtility.getCellCount(xlPath, xlSheet,rowCount);
@@ -193,7 +192,7 @@ public class TC_TrainStatusTable extends TestBase_TrainStatusTable{
 	public String[][] getData2() throws IOException
 	{
 	
-		String xlPath="C:\\Users\\DELL\\eclipse-workspace\\SeleniumProjects\\src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
+		String xlPath="src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
 		String xlSheet="Sheet3";
 		int rowCount=ExcelUtility.getRowCount(xlPath, xlSheet);
 		int cellCount=ExcelUtility.getCellCount(xlPath, xlSheet,rowCount);
@@ -216,7 +215,7 @@ public class TC_TrainStatusTable extends TestBase_TrainStatusTable{
 	public String[][] getData3() throws IOException
 	{
 	
-		String xlPath="C:\\Users\\DELL\\eclipse-workspace\\SeleniumProjects\\src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
+		String xlPath="src\\test\\java\\com\\qa\\testdata\\TrainNumberList.xlsx";
 		String xlSheet="Sheet4";
 		int rowCount=ExcelUtility.getRowCount(xlPath, xlSheet);
 		int cellCount=ExcelUtility.getCellCount(xlPath, xlSheet,rowCount);

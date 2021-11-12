@@ -35,13 +35,13 @@ public class TestBase_TrainStatusTable {
 			chrome_Profile.addArguments("disable-infobars");	 
 			chrome_Profile.setExperimentalOption("useAutomationExtension", false);
 			chrome_Profile.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));
-			System.setProperty("webdriver.chrome.driver","E:\\Automation\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","SeleniumProjects\\Externaldownloads\\chromedriver_win32\\chromedriver.exe");
 			driver=new ChromeDriver(chrome_Profile);
 			driver.manage().window().maximize();
 		}
 		else
 		{
-			System.setProperty("webdriver.chrome.driver","E:\\Automation\\edgedriver_win64\\msedgedriver.exe");
+			System.setProperty("webdriver.chrome.driver","SeleniumProjects\\Externaldownloads\\edgedriver_win64\\msedgedriver.exe");
 			driver=new EdgeDriver();
 		}
 		
